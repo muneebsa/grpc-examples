@@ -1,0 +1,13 @@
+builds/
+bin/
+obj/
+Release/
+**/packages/*
+Thumbs.db
+*.suo
+._*
+*.orig
+*.user
+*.dotsettings
+.DS_Store
+.vs
