@@ -7,7 +7,7 @@ git clone https://github.com/muneebsa/grpc-examples.git
 WORK_DIR: ~/Dev/grpc
 ```
 It is assumed that you have cloned the repository in your favourite working dir {{WORK-DIR}}.
-## Running gRPC Server - Java
+### Running gRPC Server - Java
 
 #### 1. Import the project into an IDE
 Open the below project folder into your favouite IDE.
@@ -19,6 +19,7 @@ The below instructions are based on using the IntelliJ IDE. For other IDEs like 
 #### 2. Select a compatible JDK
 The examples were tested with JDK 1.8. You may try higher version if you like.
 ![](README/intellij-jdk.png)
+<img src="README/intellij-jdk.pngg" alt="" style="width:300px;"/>
 
 #### 3. Compile the gRPC protobuf (proto) file
 ![](README/intellij-proto-compile.png)
