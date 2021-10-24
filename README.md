@@ -21,7 +21,7 @@ The examples were tested with JDK 1.8. You may try higher version if you like.
 ![](README/intellij-jdk.png)
 
 #### 3. Compile the gRPC protobuf (proto) file
-![](README/intellij-proto-compile.png)
+![](README/intellij-proto-compile.png){ width=50% }
 
 #### 4. Compile the server (java) code
 ![](README/intellij-java-compile.png)
