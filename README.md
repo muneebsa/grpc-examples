@@ -19,7 +19,6 @@ The below instructions are based on using the IntelliJ IDE. For other IDEs like 
 #### 2. Select a compatible JDK
 The examples were tested with JDK 1.8. You may try higher version if you like.
 ![](README/intellij-jdk.png)
-<img src="README/intellij-jdk.pngg" alt="" style="width:300px;"/>
 
 #### 3. Compile the gRPC protobuf (proto) file
 ![](README/intellij-proto-compile.png)
