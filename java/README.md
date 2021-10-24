@@ -20,22 +20,22 @@ The below instructions are based on using the IntelliJ IDE. For other IDEs like 
 
 #### 2. Select a compatible JDK
 The examples were tested with JDK 1.8. You may try higher version if you like.
-![](java/README/intellij-jdk.png)
+![](README/intellij-jdk.png)
 
 #### 3. Compile the gRPC protobuf (proto) file
-![](java/README/intellij-proto-compile.png)
+![](README/intellij-proto-compile.png)
 
 #### 4. Compile the server (java) code
-![](java/README/intellij-java-compile.png)
+![](README/intellij-java-compile.png)
 
 #### 5. Add generated code to the project
-![](java/README/intellij-modules-grpc-java.png)
-![](java/README/intellij-modules-java.png)
+![](README/intellij-modules-grpc-java.png)
+![](README/intellij-modules-java.png)
 
 #### 6. Run the server (class)
-![](java/README/intellij-run-server.png)
+![](README/intellij-run-server.png)
 Once the server run is successfull, you will see the below message in the console.
-![](java/README/intellij-run-server-console.png)
+![](README/intellij-run-server-console.png)
 
 ## Running gRPC Client
 
@@ -50,7 +50,7 @@ The below instructions are based on using the IntelliJ IDE. For other IDEs like 
 Follow the instructions #2 through #5 as outlined in the **Running gRPC Server - Java** section.
 
 #### Run the client (class)
-![](java/README/intellij-run-client.png)
+![](README/intellij-run-client.png)
 Once the client run is successfull, you will see the below message in the console.
-![](java/README/intellij-run-client-console.png)
+![](README/intellij-run-client-console.png)
 
