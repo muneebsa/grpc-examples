@@ -46,10 +46,10 @@ Open the below project folder into your favouite IDE.
 ```
 The below instructions are based on using the IntelliJ IDE. For other IDEs like Eclipse, you may need to adjust the steps/instructions accordingly.
 
-#### Setup the project qand compile
+#### 2. Setup the project qand compile
 Follow the instructions #2 through #5 as outlined in the **Running gRPC Server - Java** section.
 
-#### Run the client (class)
+#### 3. Run the client (class)
 ![](README/intellij-run-client.png)
 Once the client run is successfull, you will see the below message in the console.
 ![](README/intellij-run-client-console.png)
