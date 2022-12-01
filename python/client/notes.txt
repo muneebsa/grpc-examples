@@ -1,0 +1,38 @@
+Create project:
+
+PyCharm ==> File ==> New Project ==> Pure Python
+Location: ~/Dev/MyOpenSourceRepositories/grpc-examples/python/client
+Python Interpreter: New Virtualenv environement
+New environement using: Virtualenv
+Location: ~/Dev/MyOpenSourceRepositories/grpc-examples/python/client/venv
+Base interpreter: Python 3.7
+
+Test project
+main.py ==> Run main ....
+
+Proto
+Copy 'helloworld.proto' into the root of the project.
+
+Install grpcio-tools
+$ python3 -m pip install grpcio-tools
+
+Generate gRPC code
+python3 -m grpc_tools.protoc --proto_path=. --python_out=. --pyi_out=. --grpc_python_out=. helloworld.proto
+
+Uppdate the main.py
+
+import grpc
+import helloworld_pb2
+import helloworld_pb2_grpc
+
+def run():
+    with grpc.insecure_channel('localhost:50051') as channel:
+        stub = helloworld_pb2_grpc.GreeterStub(channel)
+        response = stub.SayHello(helloworld_pb2.HelloRequest(name='Muneeb'))
+        print("Greeter client received: " + response.message)
+
+if __name__ == '__main__':
+    run()
+
+Run the client app
+main.py ==> Run main ....

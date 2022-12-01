@@ -150,3 +150,10 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+# ================
+# Python, PyCharm
+# ================
+*_pb2.py
+*_pb2.pyi
+*_pb2_grpc.py
